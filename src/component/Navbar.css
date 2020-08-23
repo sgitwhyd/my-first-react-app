@@ -1,15 +1,20 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .navbar {
-    background: red;
-    margin-bottom: 30px;
+  background-color: cadetblue;
+  margin-bottom: 30px;
 }
 .navbar .navbar-brand {
-    font-size: 24px;
+  font-size: 24px;
 }
-.navbar .navbar-nav .nav-item Link{
-    font-size: 18px;
-    margin: 0px 10px 0px 10px;
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  color: black;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }

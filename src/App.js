@@ -5,6 +5,7 @@ import Hello from './About.js';
 import Navbar from './component/Navbar';
 import Home from './Home';
 import Features from './Features.js';
+import Button from './component/Button';
 import { BrowserRouter, Route} from 'react-router-dom'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <Route exact path="/">
       <Navbar/>
       <Home/>
-    </Route>
+        </Route>
     <Route path="/About">
       <Navbar/>
       <Hello/>
@@ -21,6 +22,10 @@ function App() {
     <Route path="/Features">
     <Navbar/>
     <Features/>
+    </Route>
+    <Route path="/Button">
+      <Navbar/>
+      <Button color="primary" colorReset="danger" margin="mx-2"/>
     </Route>
    </BrowserRouter>
   );

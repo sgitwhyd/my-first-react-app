@@ -1,8 +1,11 @@
-import React from 'react'
+import React from "react";
 
-
-const Features = () => {
-    return <h1 className="text-center">this Features Page</h1>
+function Features() {
+  return (
+    <div>
+      <h1 className="text-center">This is feature page</h1>
+    </div>
+  );
 }
 
 export default Features;
